@@ -253,8 +253,7 @@ First of all , install [anaconda](https://www.continuum.io/downloads) - it makes
 
 install pip -  `sudo apt-get install python-pip python3-pip`
 
-Install the following packages - beautifulSoup , tkinter , vpython ,twine,requests , mechanise, bs4,lxml,ipython,
-, django, __future__, yolog,matplotlib,scrapy,facepy
+Install the following packages - beautifulSoup , tkinter , vpython ,twine,requests , mechanise, bs4 , lxml , ipython , django , __future__ , yolog , matplotlib , scrapy , facepy
 
 with `pip install package_name` or `sudo -H pip install package_name` unless specifically mentioned.
 
