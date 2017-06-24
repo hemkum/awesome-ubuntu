@@ -44,9 +44,24 @@ sudo apt-get dist-upgrade</pre>
 **NOTE** : Unlike windows, you'll be able to install only one application at a time, simply because it locks the list for repositories to look for updates later.(Very crude explanation).
 
 
-In the meanwhile, you might want to tweak your OS with these 2 :
+In the meanwhile, you might want to tweak your OS with these  :
 
+* apt-fast :  A shellscript wrapper for apt-get and apt that drastically speeds up downloading of packages by downloading packages in parallel, with multiple connections per package.  
+```
+sudo add-apt-repository ppa:saiarcot895/myppa
+sudo apt-get update
+sudo apt-get -y install apt-fast 
+```
+During installation it will ask you to change number of connections for downloading, change it's value to any high value like 16
+Afterwards, use apt-fast instead of apt-get or apt.
 
+* flux : It makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day.
+```
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install -y fluxgui && fluxgui
+```
+    
 * One click minimise :
 `gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true`
 
