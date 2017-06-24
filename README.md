@@ -85,7 +85,7 @@ sudo apt-get install -y fluxgui && fluxgui
  sudo apt-get install icedax tagtool libdvd-pkg
  sudo apt-get install easytag id3tool lame libxine2-ffmpeg
  sudo apt-get install nautilus-script-audio-convert libmad0
- sudo apt-get isntall mpg321 libavcodec-extra gstreamer1.0-libav
+ sudo apt-get install mpg321 libavcodec-extra gstreamer1.0-libav
  sudo apt-get install  p7zip-rar p7zip-full unace unrar zip unzip
  sudo apt-get install  sharutils rar uudeview mpack arj cabextract file-roller</pre>.
 
