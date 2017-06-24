@@ -52,7 +52,7 @@ sudo add-apt-repository ppa:saiarcot895/myppa
 sudo apt-get update
 sudo apt-get -y install apt-fast 
 ```
-During installation it will ask you to change number of connections for downloading, change it's value to any high value like 16
+During installation it will ask you to change number of connections for downloading, change it's value to any high value like 16.
 Afterwards, use apt-fast instead of apt-get or apt.
 
 * flux : It makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day.
@@ -75,7 +75,8 @@ sudo apt-get install -y fluxgui && fluxgui
 `sudo apt-get install flashplugin-installer`
 * linuxdcpp : Peer-to-peer file sharing network
   `sudo apt-get install linuxdcpp`
-
+* eiskaltdcpp : Alternative to linucdcpp
+`sudo apt-get install eiskaltdcpp`
   While you install the rest, you can upload the required minimum.
 
 * [Chrome](http://askubuntu.com/questions/79280/how-to-install-chrome-browser-properly-via-command-line): An awesome web browser, owing to its [extensions](#chrome).  Install the extensions you want while the rest is installed via apt-get.
